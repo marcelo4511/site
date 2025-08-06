@@ -3,7 +3,7 @@ name: Deploy Vue App to HostGator
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to HostGator via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4
         with:
-          server: ftp.seudominio.com
+          server: ns434.hostgator.com.br
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist
