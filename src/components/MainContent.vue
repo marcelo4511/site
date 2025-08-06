@@ -26,7 +26,7 @@
         <!-- Serviços Section -->
         <section id="services" class="py-5 bg-light">
             <div class="container">
-            <h2 class="text-center mb-4">Meus Serviços teste</h2>
+            <h2 class="text-center mb-4">Meus Serviços</h2>
             <div class="row">
                 <div class="col-md-4 text-center">
                 <div class="icon mb-3">
@@ -75,8 +75,8 @@
                         <img src="@/assets/surveys.png" target="_bank" height="200" width="350" class="card-img-top" alt="Projeto 2">
                         <div class="card-body">
                             <h5 class="card-title">Enquete PRO</h5>
-                            <p class="card-text">Descrição breve.</p>
-                            <a href="#" class="btn btn-outline-primary">Ver Projeto</a>
+                            <p class="card-text">Projeto em desenvolvimento, em breve será postado</p>
+                            <!-- <a href="#" class="btn btn-outline-primary">Ver Projeto</a> -->
                         </div>
                     </div>
                 </div>
